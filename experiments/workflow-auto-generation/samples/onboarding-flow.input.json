@@ -1,0 +1,22 @@
+{
+  "name": "onboarding-flow",
+  "triggers": ["new-user"],
+  "steps": [
+    {
+      "id": "collect-profile",
+      "type": "input",
+      "description": "Collect user profile data"
+    },
+    {
+      "id": "validate-input",
+      "type": "validate",
+      "description": "Validate required fields"
+    },
+    {
+      "id": "send-welcome-email",
+      "type": "action",
+      "description": "Send welcome email to user"
+    }
+  ],
+  "outputs": ["audit-log"]
+}

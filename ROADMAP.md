@@ -16,8 +16,10 @@
 - [ ] release notes
 
 ## v0.3.0 — Momentum
-- [ ] Experiment 2: Workflow auto-generation
-- [ ] Experiment 3: MCP discovery tool
+- [x] Experiment 2: Workflow auto-generation blueprint
+- [ ] Experiment 2: sample input/output pairs
+- [x] Experiment 3: MCP discovery tool blueprint
+- [ ] Experiment 3: core script implementation
 - [ ] add screenshots or terminal demos
 - [ ] improve copy for discoverability
 

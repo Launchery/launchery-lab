@@ -27,9 +27,21 @@
 **Core question:** can a narrow input format generate a useful workflow stub faster than hand-writing boilerplate?
 
 **Desired demo:**
-- input a small structured prompt;
-- output a workflow scaffold;
+- input a small structured spec;
+- output a workflow scaffold with stages/placeholders/comments;
 - show where human editing still matters.
+
+**Scope:**
+- one tiny JSON/YAML schema;
+- documentation-first experiment or tiny CLI;
+- 2-3 sample input/output pairs;
+- explicit notes on limits.
+
+**Non-goals:**
+- autonomous workflow design;
+- full orchestration engine;
+- provider-specific control plane;
+- vague "AI builds everything" claims.
 
 ## Experiment 3 — MCP discovery tool
 
