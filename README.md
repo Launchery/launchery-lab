@@ -44,6 +44,9 @@ Explore whether simple workflow definitions can be generated from a narrow input
 ### Experiment 3 — MCP discovery tool
 Experiment with lightweight discovery or inspection of MCP servers/resources.
 
+### Experiment 4 — MCP security scanner
+A lightweight CLI that probes MCP servers for common security issues: input validation gaps, error leakage (paths, stacks, credentials), resource scope problems, and prompt safety. Severity-ranked findings with remediation advice.
+
 ## Repo structure
 
 ```text
