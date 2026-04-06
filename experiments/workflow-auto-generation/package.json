@@ -1,0 +1,18 @@
+{
+  "name": "workflow-auto-generation",
+  "version": "0.1.0",
+  "description": "Experiment: turn a structured workflow spec into a scaffold with stages, wiring, and human-edit markers",
+  "main": "dist/generate.js",
+  "bin": {
+    "workflow-generator": "dist/generate.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "generate": "node dist/generate.js"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  },
+  "license": "MIT"
+}

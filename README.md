@@ -50,6 +50,14 @@ Experiment with lightweight discovery or inspection of MCP servers/resources.
 experiments/
   mcp-graphql-bridge/
     README.md
+  workflow-auto-generation/
+    README.md
+    src/generate.ts     ← core generator
+    package.json
+    tsconfig.json
+    samples/            ← input specs + expected outputs
+  mcp-discovery-tool/
+    README.md
 README.md
 ROADMAP.md
 EXPERIMENTS-PLAN.md
@@ -71,4 +79,6 @@ EXPERIMENTS-PLAN.md
 ## Status
 
 Blueprint prepared on 2026-04-05.
-Next step: get Anton approval for code phase, then scaffold the repo and package Experiment 1.
+Experiment 2 (workflow auto-generation) **implemented** on 2026-04-06 — core generator + 3 samples.
+Experiment 3 blueprint added on 2026-04-06.
+Next step: push updates to GitHub.

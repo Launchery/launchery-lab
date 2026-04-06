@@ -1,0 +1,27 @@
+{
+  "name": "bugfix-pipeline",
+  "triggers": ["bug-reported"],
+  "steps": [
+    {
+      "id": "reproduce",
+      "type": "validate",
+      "description": "Reproduce the reported bug"
+    },
+    {
+      "id": "fix",
+      "type": "action",
+      "description": "Implement the fix"
+    },
+    {
+      "id": "regression-test",
+      "type": "validate",
+      "description": "Run regression tests"
+    },
+    {
+      "id": "notify-reporter",
+      "type": "action",
+      "description": "Notify the bug reporter"
+    }
+  ],
+  "outputs": ["changelog-entry"]
+}

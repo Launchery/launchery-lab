@@ -1,0 +1,32 @@
+{
+  "name": "data-import",
+  "triggers": ["csv-uploaded"],
+  "steps": [
+    {
+      "id": "parse-csv",
+      "type": "action",
+      "description": "Parse and validate CSV headers"
+    },
+    {
+      "id": "transform",
+      "type": "action",
+      "description": "Map columns to internal schema"
+    },
+    {
+      "id": "deduplicate",
+      "type": "validate",
+      "description": "Check for duplicate records"
+    },
+    {
+      "id": "insert",
+      "type": "action",
+      "description": "Batch insert into database"
+    },
+    {
+      "id": "send-summary",
+      "type": "action",
+      "description": "Send import summary to admin"
+    }
+  ],
+  "outputs": ["import-report"]
+}

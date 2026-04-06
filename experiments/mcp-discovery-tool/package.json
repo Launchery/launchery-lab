@@ -1,0 +1,21 @@
+{
+  "name": "mcp-discovery-tool",
+  "version": "0.1.0",
+  "description": "Lightweight MCP server discovery tool — inspect and document any MCP server",
+  "type": "module",
+  "bin": {
+    "mcp-discover": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
