@@ -1,0 +1,20 @@
+{
+  "name": "mcp-security-scanner",
+  "version": "0.1.0",
+  "description": "Experiment 4: Security scanner for MCP servers",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-security-scanner": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "scan": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "@types/node": "^22.15.0"
+  }
+}
